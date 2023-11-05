@@ -1,0 +1,23 @@
+:root {
+    --font: 'Inter', sans-serif;
+
+    --c-number: #C5C6CE;
+    --c-title: #000000;
+    --c-text: #5E607A;
+
+    --c-border: #C5C6CE;
+
+    --f-number: 900 22px var(--font);
+    --f-title: 900 20px var(--font);
+    --f-text: 400 16px/1.5 var(--font);
+}
+
+@media (max-width: 840px){
+    :root {
+        --c-number: #b0dcff;
+
+        --f-number: 900 20px var(--font);
+        --f-title: 600 18px var(--font);
+        --f-text: 400 16px/1.5 var(--font);
+    }
+}

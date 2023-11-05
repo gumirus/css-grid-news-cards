@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body {
+    height: 100vh;
+    padding-top: 100px;
+    font-family: var(--font);
+}
+
+.container {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-news {
+    display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 40px 50px;
+
+    /* Subgrid */
+    // grid-template-rows: repeat(4, auto);
+}
